@@ -9,7 +9,13 @@
     itemSix = document.querySelectorAll('.item_six .props__item_two'),
     itemFour = document.querySelectorAll(
       '.item_four .props__list .props__item_four'
-    );
+    ),
+    itemTitle = document.querySelectorAll('.item__title');
+
+  itemTitle[1].textContent = 'Область видимости и замыкание';
+  itemTitle[2].textContent = 'This и прототипы объектов';
+  itemTitle[3].textContent = 'Асинхронная обработка и оптимизация';
+  itemTitle[4].textContent = 'ES6 и не только';
 
   propsList[2].append(itemSix[0], itemSix[1]);
 
